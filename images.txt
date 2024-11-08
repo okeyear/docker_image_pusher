@@ -7,8 +7,6 @@
 
 ###### base ######
 busybox
-nginx
-
 
 
 ###### dockerhub ######
@@ -16,12 +14,10 @@ nginx
 
 
 ###### k8s ######
-registry.k8s.io/ingress-nginx/controller:v1.11.3
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
 
 ###### gcr.io ######
-quay.io/metallb/controller:v0.14.8
 
 
 ###### others ######
