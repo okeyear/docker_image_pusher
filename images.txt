@@ -20,6 +20,7 @@ nginx
 
 
 ###### gcr.io ######
+quay.io/metallb/controller:v0.14.8
 
 
 ###### others ######
