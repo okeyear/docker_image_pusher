@@ -14,10 +14,9 @@ busybox
 
 
 ###### k8s ######
-registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
 
 ###### gcr.io ######
-
+ghcr.io/ajnart/homarr:latest
 
 ###### others ######
