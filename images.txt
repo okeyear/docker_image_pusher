@@ -7,7 +7,7 @@
 
 ###### base ######
 busybox
-
+ubuntu
 
 ###### dockerhub ######
 
