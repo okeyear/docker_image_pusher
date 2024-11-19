@@ -6,8 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-busybox
-ubuntu
+
 
 ###### dockerhub ######
 
@@ -17,6 +16,6 @@ ubuntu
 
 
 ###### gcr.io ######
-ghcr.io/ajnart/homarr:latest
+quay.io/minio/minio:latest
 
 ###### others ######
