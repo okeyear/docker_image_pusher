@@ -9,7 +9,7 @@
 
 
 ###### dockerhub ######
-
+ros:noetic
 
 
 ###### k8s ######
