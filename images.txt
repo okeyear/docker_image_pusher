@@ -6,16 +6,16 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-
+busybox
 
 ###### dockerhub ######
-ros:noetic
+
 
 
 ###### k8s ######
 
 
 ###### gcr.io ######
-gcr.io/k8s-minikube/kicbase:v0.0.45
+
 
 ###### others ######
