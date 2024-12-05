@@ -6,7 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-kindest/node:v1.31.2
+grafana/promtail:2.8.3
 
 ###### dockerhub ######
 
