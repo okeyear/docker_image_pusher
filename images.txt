@@ -7,6 +7,7 @@
 
 ###### base ######
 locustio/locust
+kennethreitz/httpbin
 
 ###### dockerhub ######
 
