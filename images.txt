@@ -6,8 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-locustio/locust
-kennethreitz/httpbin
+kafka
 
 ###### dockerhub ######
 
