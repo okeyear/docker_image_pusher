@@ -6,7 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-kafka
+apache/kafka
 
 ###### dockerhub ######
 
