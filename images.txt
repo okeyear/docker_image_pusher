@@ -6,7 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-spark:3.5.3
+docker.io/kubeflow/spark-operator:v1beta2-1.6.2-3.5.0
 ###### dockerhub ######
 
 
