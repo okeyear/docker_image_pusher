@@ -6,7 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-gcr.io/k8s-minikube/kicbase:v0.0.46
+prom/prometheus
 
 ###### dockerhub ######
 
