@@ -6,7 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-registry.k8s.io/metrics-server/metrics-server:v0.7.2
+gcr.io/datadoghq/cluster-agent:7.63.3
 
 ###### dockerhub ######
 
