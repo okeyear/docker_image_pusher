@@ -6,7 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-gcr.io/datadoghq/cluster-agent:7.63.3
+gcr.io/datadoghq/agent:7.63.3
 
 ###### dockerhub ######
 
