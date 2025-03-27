@@ -6,9 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-ghcr.io/dexidp/dex:v2.41.1
-quay.io/argoproj/argocd:v2.14.6
-redis:7.0.15-alpine
+docker.io/kindest/node:v1.32.2
 
 ###### dockerhub ######
 
