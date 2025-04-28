@@ -6,14 +6,16 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 ###### base ######
-docker.io/kindest/node:v1.32.2
+
 
 ###### dockerhub ######
 
 
 
 ###### k8s ######
-
+registry.k8s.io/defaultbackend-amd64:1.5
+registry.k8s.io/ingress-nginx/controller:v1.12.1
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2
 
 
 ###### gcr.io ######
