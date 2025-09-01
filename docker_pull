@@ -1,0 +1,33 @@
+#!/bin/bash
+export DEBIAN_FRONTEND=noninteractive
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+
+color_echo() {
+    # 定义颜色代码数组（文字色30-37，背景色40-47）
+    local text_colors=(31 32 33 34 35 36 37)  # 排除黑色30
+    local bg_colors=(40 41 42 43 44 45 46 47) # 包含黑色40
+    
+    # 随机选择文字颜色
+    local text_idx=$((RANDOM % ${#text_colors[@]}))
+    local text_color=${text_colors[$text_idx]}
+    
+    # 确保背景色与文字色不同
+    local bg_color
+    while :; do
+        bg_color=${bg_colors[$((RANDOM % ${#bg_colors[@]}))]}
+        [ "$bg_color" != "$((text_color + 10))" ] && break
+    done
+    
+    # 输出带颜色的文本
+    echo -e "\e[${text_color};${bg_color}m$1\e[0m"
+}
+
+echo $1 > images.txt
+
+git add .
+git commit -m "update image"
+git push
+
+color_echo "pull $1"
+color_echo "docker pull docker pull registry.cn-beijing.aliyuncs.com/my-dockermirrors/xxx:TAG"
