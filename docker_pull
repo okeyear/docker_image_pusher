@@ -25,6 +25,7 @@ color_echo() {
 
 echo $1 > images.txt
 
+git pull --rebase
 git add .
 git commit -m "update image"
 git push
