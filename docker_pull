@@ -2,7 +2,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
-
+cd $SCRIPT_DIR
 color_echo() {
     # 定义颜色代码数组（文字色30-37，背景色40-47）
     local text_colors=(31 32 33 34 35 36 37)  # 排除黑色30
@@ -34,3 +34,4 @@ echo "docker pull $1"
 color_echo "docker pull $1"
 echo "docker pull docker pull registry.cn-beijing.aliyuncs.com/my-dockermirrors/xxx:TAG"
 color_echo "docker pull docker pull registry.cn-beijing.aliyuncs.com/my-dockermirrors/xxx:TAG"
+cd -
