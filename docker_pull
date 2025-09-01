@@ -30,5 +30,7 @@ git add .
 git commit -m "update image"
 git push
 
-color_echo "pull $1"
+echo "docker pull $1"
+color_echo "docker pull $1"
+echo "docker pull docker pull registry.cn-beijing.aliyuncs.com/my-dockermirrors/xxx:TAG"
 color_echo "docker pull docker pull registry.cn-beijing.aliyuncs.com/my-dockermirrors/xxx:TAG"
