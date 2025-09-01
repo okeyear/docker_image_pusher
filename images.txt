@@ -1,1 +1,1 @@
-kicbase/stable
+kicbase/stable:v0.0.47
