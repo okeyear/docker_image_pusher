@@ -1,2 +1,2 @@
-docker.io/envoyproxy/gateway-dev:latest
-docker.io/envoyproxy/ratelimit:master
+docker.io/envoyproxy/gateway:v1.7.0
+docker.io/envoyproxy/ratelimit:3fb70258
