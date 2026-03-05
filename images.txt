@@ -1,2 +1,1 @@
-docker.io/envoyproxy/gateway:v1.7.0
-docker.io/envoyproxy/ratelimit:3fb70258
+gcr.io/k8s-staging-gateway-api/echo-basic:v20231214-v1.0.0-140-gf544a46e
