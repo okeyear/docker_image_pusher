@@ -1,3 +1,2 @@
-ghcr.io/dexidp/dex:v2.43.0
-public.ecr.aws/docker/library/redis:8.2.3-alpine
-quay.io/argoproj/argocd:v3.3.2
+docker.io/envoyproxy/gateway-dev:latest
+docker.io/envoyproxy/ratelimit:master
