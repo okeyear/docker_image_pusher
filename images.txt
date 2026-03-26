@@ -1,2 +1,1 @@
-ghcr.io/loft-sh/kubernetes:v1.35.0
-ghcr.io/loft-sh/vcluster-pro:0.33.1
+rancher/local-path-provisioner:v0.0.35
