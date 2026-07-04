@@ -1,4 +1,4 @@
-registry.internal.local/gitlab/gitlab-runner-helper:latest
+registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:latest
 registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v19.1.1
 docker:cli
 docker:dind
