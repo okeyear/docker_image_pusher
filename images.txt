@@ -1,1 +1,1 @@
-registry.dagger.io/engine:v0.21.7
+gitlab/gitlab-ce:latest
